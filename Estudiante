@@ -76,7 +76,7 @@ peso = leerDatoTipoReal("Ingrese el peso del estudiante: ");
  numeroMaterias =leerDatoTipoEntero("ingrese el numero de materias");
  
 for(int i = 0; i < numeroMaterias; i++) {
-promedioNotas+=leerDatoTipoReal("ingrese la nota de la materia numero#"+1);
+promedioNotas+=leerDatoTipoReal("ingrese la nota de la materia numero#"+i);
 }
   promedioNotas = calcularPromedio(numeroMaterias, promedioNotas);
 
